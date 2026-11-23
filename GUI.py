@@ -233,7 +233,7 @@ def valid(bo, num, pos):
 
 
 def redraw_window(win, board, time, strikes):
-    win.fill((255,255,255))
+    win.fill((55,25,80))
     # Draw time
     fnt = pygame.font.SysFont("comicsans", 40)
     text = fnt.render("Time: " + format_time(time), 1, (0,0,0))
