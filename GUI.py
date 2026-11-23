@@ -250,7 +250,7 @@ def format_time(secs):
     minute = secs//60
     hour = minute//60
 
-    mat = " " + str(minute) + ":" + str(sec)
+    mat = " " + str(minute) + ":" + str(sec).zfill(2)
     return mat
 
 
